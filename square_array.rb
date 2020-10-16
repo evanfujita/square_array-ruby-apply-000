@@ -4,8 +4,7 @@ def square_array(numbers)
   numbers.each do | number |
 square = number ** 2
   ary << square
-  numbers = ary
-  puts "#{numbers}"
+  puts "#{ary}"
 end
 end
 
