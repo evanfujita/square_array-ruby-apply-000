@@ -3,9 +3,9 @@ def square_array(numbers)
   numbers.each do | number |
 square = number ** 2
 numbers << square
-numbers.shift
 puts "#{numbers}"
-
 end
+numbers.shift
+
 end
 
