@@ -4,7 +4,7 @@ def square_array(numbers)
 square = number ** 2
 Array.new << square
 numbers = Array.new
-puts "#{Array.new}"
+puts "#{numbers}"
 
 
 end
