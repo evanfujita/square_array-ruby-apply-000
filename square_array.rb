@@ -4,7 +4,6 @@ def square_array(numbers)
 square = number ** 2
 numbers << square
 puts "#{numbers}"
-end
 numbers.shift
 
 end
