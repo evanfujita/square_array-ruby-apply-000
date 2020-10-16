@@ -5,6 +5,6 @@ def square_array(numbers)
 square = number ** 2
   ary << square
 end
-  return "#{ary}"
+  return ary
 end
 
